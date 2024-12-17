@@ -1,0 +1,247 @@
+/*header*/
+
+header{
+    background-color: #7287AF;
+    height:100vh;
+}
+
+/*menu*/
+.menu{
+display: flex;
+justify-content: space-between;
+position: fixed;
+background-color: #7287AF;
+width:100% ;
+
+}
+
+.menu_items{
+    margin: 3em 5em 0 0;
+    display: flex;
+}
+.item{
+    padding-right: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu_items a:hover{
+    color:yellowgreen
+}
+
+.logo{
+    margin: 0 0 0 5em;
+}
+
+.titre_accroche{
+    padding-top: 15em;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+h1{
+    font-weight: bolder;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    color: #7287AF;
+}
+
+/*popular menu*/
+.food{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 50px 0 0 0;
+}
+
+h3{
+    font-weight: bold;
+}
+.popular{
+    background-color: #dfeabf;
+}
+
+.food-menu{
+    background-color: white;
+    width: 20em;
+    margin-bottom: 25px;
+}
+
+.txt{
+    margin: 10px 10px 20px 10px;
+}
+
+.prix{
+    font-weight: bolder;
+}
+
+/*discount section*/
+.discount_section{
+    display: flex;
+    width:100%
+}
+
+.discount_section2{
+    display: flex;
+    flex-direction: row-reverse;
+    width:100%
+}
+
+.bouton{
+    background-color: #7287AF ;
+    border-radius: 50em;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.Gbouton{
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+}
+
+.discount{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "a b"
+                        "c d";
+}
+.haut{
+    grid-area: a;
+}
+.thaut{
+    grid-area: b;
+}
+.bas{
+    grid-area: d;
+}
+.tbas{
+    grid-area: c;
+}
+.texte{
+    margin: auto 100px auto 50px;
+}
+h4{
+    margin-bottom: 50px;
+}
+
+.discountp{
+    margin-bottom: 50px;
+}
+/* How to Order*/
+.order{
+    background-color: #7287AF ;
+    padding: 50px 0 50px 0;
+    color: white;
+}
+.all_card{
+    display: flex;
+   text-align: center;
+   justify-content: space-around;
+   
+}
+.card h2{
+    background-color: white;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin: auto auto;
+    color: #7287AF ;
+    padding: 10px;
+}
+.title_order{
+    margin-bottom: 50px;
+}
+.subtitle{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.card{
+   width: 200px;
+}
+/*Free Delivery*/
+.txt_delivery{
+    text-align: center;
+    margin: 0 200px;
+    color: #7287AF;
+}
+.h_delivery{
+    font-size: 42px;
+    font-weight: bold;
+}
+.delivery{
+    min-height: 400px;
+    background: url("../images/voucher.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.delivery p{
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+/*temoignage*/
+.temoignage{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    background-color: #dfeabf;
+    padding: 50px 0 30px 0;
+    color: #7287AF;
+}
+.temoignage img{
+    width: 50px;
+    margin: auto;
+}
+.txt_temoignage{
+    max-width: 50%;
+    margin: 0 auto;
+}
+.icones img{
+    padding: 5px;
+}
+/*footer*/
+footer{
+    display: flex;
+    background-color: #7287AF;
+    color: white;
+    padding: 50px 70px;
+}
+.columns {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left:200px;
+}
+ul{
+    list-style-type: none;
+    padding:0px;
+}
+.about{
+    max-width: 50%;
+}
+h6{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.bouton:hover{
+    background-color: #3D485C;
+}
